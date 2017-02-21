@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    var table_tag;
+    var table_row;
+    var text;
+    var table_data;
+    var table_header;
+    var header_text
+    function create_table(rows, columns)
+    {
+        table_tag = document.createElement("table")                     // Create a table element
+        header_row = document.createElement("tr")                       // Create a row element
+        table_tag.appendChild(header_row); 
+        for (i = 0; i < rows; i++)
+            {
+                table_header = document.createElement("th")             // Create a header element
+                header_text = document.createTextNode("Header");        // Create a text node
+                table_header.appendChild(header_text);
+                header_row.appendChild(table_header);
+                
+                table_row = document.createElement("tr")                // Create a row element
+                for (j = 0; j < columns; j++)
+                {
+                    text = document.createTextNode("Firstname");        // Create a text node
+                    table_data = document.createElement("td")           // Create a <h1> element
+                    console.log("h",table_data)
+                    table_data.appendChild(text);
+                    table_row.appendChild(table_data);
+                    table_tag.appendChild(table_row); 
+                }
+            }
+        document.body.appendChild(table_tag);
+    }
+create_table(3, 3);
+</script>
+</body>
+</html>

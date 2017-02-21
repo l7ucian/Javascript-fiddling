@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script>
+function Rabbit(type)
+{
+  this.type = type;      
+}
+var killerRabbit = new Rabbit("killer");
+var blackRabbit = new Rabbit("black");
+    
+Rabbit.prototype.teeth = "small";
+    
+console.log("killer before ",killerRabbit.teeth);
+console.log("black ", blackRabbit.teeth);
+
+//this overrides the prototype property
+killerRabbit.teeth = "long , sharp , and bloody";
+console.log("killer after ",killerRabbit.teeth);
+console.log("black ",blackRabbit.teeth);
+console.log("prototype ",Rabbit.prototype.teeth);
+    
+console.log(Array.prototype.toString == Object.prototype.toString);
+console.log([1,2].toString());
+console.log(Object.prototype.toString.call([1 , 2]));
+</script>
+</html>

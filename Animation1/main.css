@@ -1,0 +1,10 @@
+.box{
+      border-radius: 25px;
+      background: #73AD21;
+      padding: 20px;
+      height: 50px;
+      width: 170px;
+      margin : 4px;
+      float:left;
+      color: white;
+}

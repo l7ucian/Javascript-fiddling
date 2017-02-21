@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<script>
+function Rabbit(type)
+    {
+        this.type = type;
+    }
+var killerRabit = new Rabbit("killer");
+var blackRabbit = new Rabbit("black");
+console.log(blackRabbit.type);
+
+Rabbit.prototype.speak = function(line){
+    console.log("The "+ this.type +" rabbit says '"+line+ "'");
+}
+Rabbit.prototype.dance = function(){
+    console.log("The " + this.type + " rabbit dances a jig.");
+}
+blackRabbit.speak("Doom...");
+killerRabit.dance();
+    var map = {};
+    function storePhi(event, phi)
+    {
+      map[event] = phi;
+    }
+storePhi("pizza", 0.069);
+storePhi("touched tree", -0.081);
+    
+//add bogus enumerable property
+//Object.prototype.nonsense = "hi";
+//add bogus non-enumerable property
+Object.defineProperty(Object.prototype, "hiddenNonsense", {enumerable : false, value : "hi"});  
+for (var name in map)
+console.log(name);
+console.log("nonsense" in map);
+console.log("toString" in map); //the result of this is true, even if it won't be displayed in the above for loop
+                                //all of this is because enumerable and non enumerable properties, boys and girls
+console.log(map.hiddenNonsense);
+console.log(map.hasOwnProperty("toString"));//can be used if someone messed up the base object prototype
+//delete bogus property
+delete Object.prototype.nonsense;
+    
+//one can sidestep Object.prototype :
+var map = Object.create(null);
+map["pizza"] = 0.069;
+console.log("toString" in map);
+console.log("pizza" in map);
+</script>
+</html>
