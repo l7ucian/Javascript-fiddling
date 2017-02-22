@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+<body>
+    <button class="btn">UnButonMo</button>
+    <button class="btn">AltButonMo</button>
+    <p class="btn">Asta e textul care este</p>
+    <script>
+        var B = document.getElementsByTagName("p")[0];
+        console.log(B);
+        B.onclick = function()
+        {
+            //creeaza element nou html -h1
+        var H = document.createElement('h1');
+            //adauga continut - text - acestui nou tag
+        H.innerHTML = "This is muh text";
+        //adauga acest tag in document, respectiv in body
+        document.body.appendChild(H);
+            
+        //schimba culoarea dupa 1 secunda
+        setTimeout(function(){
+        H.style.color = "red";
+        }, 1000);
+            
+        setTimeout(function(){
+        H.style.display = "none";  
+        }, 2000);
+        
+        setTimeout(function(){
+        B.style.display = "none"; 
+        }, 3000);
+        }
+    </script>
+</body>
+</html>

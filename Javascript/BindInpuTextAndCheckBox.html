@@ -1,0 +1,22 @@
+<!-- Tell angular where on the page it's active-->
+<!-- ng-init
+     ng-model
+are some nice directives	 -->
+<!DOCTYPE html>
+<html lang="en" ng-app>
+	<head>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+	<div class="container" ng-init="title='CodeCraft'; awesome=true;">
+	<!-- This is one way to define bindings -->
+	<h1>{{title}} is Awesome: {{awesome}}</h1>
+	<input type="text"
+	        class="form-control"
+			ng-model="title"/>
+	<input type="checkbox"
+	       class="form-control"
+		   ng-model="awesome"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script> 
+	</body>
+</html>

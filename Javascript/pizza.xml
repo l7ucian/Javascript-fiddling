@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng"
+    yahoo:count="10" yahoo:created="2016-02-02T12:00:35Z" yahoo:lang="en-US">
+    <diagnostics>
+        <publiclyCallable>true</publiclyCallable>
+        <cache execution-start-time="5" execution-stop-time="5"
+            execution-time="0" method="GET" type="MEMCACHED"><![CDATA[local.search://transorm_xsl_5HWCXxRh]]></cache>
+        <cache execution-start-time="4" execution-stop-time="5"
+            execution-time="1" method="get" type="MEMCACHED"><![CDATA[local.search://transorm_xsl_5HWCXxRh]]></cache>
+        <url execution-start-time="6" execution-stop-time="174" execution-time="168"><![CDATA[hidden]]></url>
+        <cache execution-start-time="181" execution-stop-time="182"
+            execution-time="1" method="GET" type="MEMCACHED"><![CDATA[5c39bc778e31044790d007ed3951f35f]]></cache>
+        <query execution-start-time="197" execution-stop-time="233" execution-time="36"><![CDATA[select * from xslt where xml=@xml and stylesheetliteral=@stylesheet]]></query>
+        <javascript execution-start-time="3" execution-stop-time="233"
+            execution-time="230" instructions-used="0" table-name="local.search"/>
+        <user-time>236</user-time>
+        <service-time>170</service-time>
+        <build-version>0.2.386</build-version>
+    </diagnostics> 
+    <results>
+        <Result id="25857783" xmlns="urn:yahoo:lcl">
+            <Title>Tasty Subs &amp; Pizza</Title>
+            <Address>528 Lawrence Expy</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 738-8761</Phone>
+            <Latitude>37.38287</Latitude>
+            <Longitude>-121.99508</Longitude>
+            <Rating>
+                <AverageRating>4</AverageRating>
+                <TotalRatings>8</TotalRatings>
+                <TotalReviews>8</TotalReviews>
+                <LastReviewDate>1229458934</LastReviewDate>
+                <LastReviewIntro> Awesome hot pastrami! Lots of meat and fresh bread not like togos. Ask about their large pizza and beer deal. Who doesnt love getting a huge combo pizza and a picture of beer for $20. Very laid back.</LastReviewIntro>
+            </Rating>
+            <Distance>1.28</Distance>
+            <Url>https://local.yahoo.com/info-25857783-tasty-subs-pizza-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-25857783-tasty-subs-pizza-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-25857783-tasty-subs-pizza-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://www.tastysubspizza.com/</BusinessUrl>
+            <BusinessClickUrl>http://www.tastysubspizza.com/</BusinessClickUrl>
+            <Categories>
+                <Category id="96926161">Indian Restaurant</Category>
+                <Category id="96926184">Tapas Restaurant</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926238">Sandwiches</Category>
+            </Categories>
+        </Result>
+        <Result id="184014119" xmlns="urn:yahoo:lcl">
+            <Title>Tasty Indian Pizza</Title>
+            <Address>528 Lawrence Expy</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 642-7672</Phone>
+            <Latitude>37.38287</Latitude>
+            <Longitude>-121.99508</Longitude>
+            <Rating>
+                <AverageRating>NaN</AverageRating>
+                <TotalRatings>0</TotalRatings>
+                <TotalReviews>0</TotalReviews>
+                <LastReviewDate/>
+                <LastReviewIntro/>
+            </Rating>
+            <Distance>1.28</Distance>
+            <Url>https://local.yahoo.com/info-184014119-tasty-indian-pizza-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-184014119-tasty-indian-pizza-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-184014119-tasty-indian-pizza-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://www.tastyindianpizza.com/</BusinessUrl>
+            <BusinessClickUrl>http://www.tastyindianpizza.com/</BusinessClickUrl>
+            <Categories>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+        <Result id="21332021" xmlns="urn:yahoo:lcl">
+            <Title>Pizza Depot</Title>
+            <Address>919 E Duane Ave</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 245-7760</Phone>
+            <Latitude>37.38901</Latitude>
+            <Longitude>-122.00396</Longitude>
+            <Rating>
+                <AverageRating>3.5</AverageRating>
+                <TotalRatings>6</TotalRatings>
+                <TotalReviews>6</TotalReviews>
+                <LastReviewDate>1307988793</LastReviewDate>
+                <LastReviewIntro> Weve been coming to this Pizza Depot every week after softball games for years. The owner is very friendly and always does whatevers necessary to please the customer. Hes even stayed open late just for us after a game that didnt end until 9:45. Sometimes it gets a little busy at night, but isnt that a sign of a good pizza place? If it was always empty, then there might be something to complain about. Our group leaves satisfied week after week...</LastReviewIntro>
+            </Rating>
+            <Distance>0.73</Distance>
+            <Url>https://local.yahoo.com/info-21332021-pizza-depot-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-21332021-pizza-depot-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-21332021-pizza-depot-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://www.pizza-depot.com/</BusinessUrl>
+            <BusinessClickUrl>http://www.pizza-depot.com/</BusinessClickUrl>
+            <Categories>
+                <Category id="96926184">Tapas Restaurant</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+        <Result id="21329046" xmlns="urn:yahoo:lcl">
+            <Title>Round Table Pizza</Title>
+            <Address>415 N Mary Ave</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 733-1365</Phone>
+            <Latitude>37.39008</Latitude>
+            <Longitude>-122.0421</Longitude>
+            <Rating>
+                <AverageRating>4.5</AverageRating>
+                <TotalRatings>4</TotalRatings>
+                <TotalReviews>4</TotalReviews>
+                <LastReviewDate>1253099765</LastReviewDate>
+                <LastReviewIntro> Great. The pizza was cooked right and the customer service was excellent. To tell you the truth the pizza was so tasty im eating it right now (had some left overs). They are generous with toppings, some places dont put enough. Better than many round tables!</LastReviewIntro>
+            </Rating>
+            <Distance>1.37</Distance>
+            <Url>https://local.yahoo.com/info-21329046-round-table-pizza-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-21329046-round-table-pizza-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-21329046-round-table-pizza-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://www.roundtablepizza.com/order?id=718</BusinessUrl>
+            <BusinessClickUrl>http://www.roundtablepizza.com/order?id=718</BusinessClickUrl>
+            <Categories>
+                <Category id="96925848">Banquet Room</Category>
+                <Category id="96926190">Italian Restaurant</Category>
+                <Category id="96926234">Carry Out &amp; Take Out</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+        <Result id="148858408" xmlns="urn:yahoo:lcl">
+            <Title>Round Table Pizza</Title>
+            <Address>1220 Oakmead Pkwy</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 970-9000</Phone>
+            <Latitude>37.38641</Latitude>
+            <Longitude>-121.99383</Longitude>
+            <Rating>
+                <AverageRating>NaN</AverageRating>
+                <TotalRatings>0</TotalRatings>
+                <TotalReviews>0</TotalReviews>
+                <LastReviewDate/>
+                <LastReviewIntro/>
+            </Rating>
+            <Distance>1.30</Distance>
+            <Url>https://local.yahoo.com/info-148858408-round-table-pizza-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-148858408-round-table-pizza-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-148858408-round-table-pizza-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://www.roundtablepizza.com/order?id=608</BusinessUrl>
+            <BusinessClickUrl>http://www.roundtablepizza.com/order?id=608</BusinessClickUrl>
+            <Categories>
+                <Category id="96925848">Banquet Room</Category>
+                <Category id="96926190">Italian Restaurant</Category>
+                <Category id="96926234">Carry Out &amp; Take Out</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+        <Result id="21335892" xmlns="urn:yahoo:lcl">
+            <Title>Domino's Pizza</Title>
+            <Address>615 Caliente Dr</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 732-3030</Phone>
+            <Latitude>37.391266</Latitude>
+            <Longitude>-122.013725</Longitude>
+            <Rating>
+                <AverageRating>1</AverageRating>
+                <TotalRatings>3</TotalRatings>
+                <TotalReviews>3</TotalReviews>
+                <LastReviewDate>1379245402</LastReviewDate>
+                <LastReviewIntro> I ordered pizza for my teenagers who had been at a concert at Shoreline. We ordered at 11 pm and were told it would be about an hour. After one and a half hours we didn t get our order so I called back and got no answer? My kids were so upset and hungry. We didn t even get a phone call back letting us know they wouldn t be able to help us.. Dominos just ditched us all together! I ve never had a business do this and it s pretty upsetting to get no pizza and then have tube too late to order anything from anywhere else... VERY DISAPPOINTING TO SAY THE LEAST. Unprofessional and obvious poor management..! If you want to eat, don t call Dominos they will not be of no assistance and will lie and tell you they are bringing you pizza. My poor kids waited 3 1/2 hours before giving up and going to bed hungry :(</LastReviewIntro>
+            </Rating>
+            <Distance>0.27</Distance>
+            <Url>https://local.yahoo.com/info-21335892-domino-s-pizza-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-21335892-domino-s-pizza-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-21335892-domino-s-pizza-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://www.dominos.com/?utm_source=yahoo&amp;utm_medium=organic&amp;utm_campaign=localmaps</BusinessUrl>
+            <BusinessClickUrl>http://www.dominos.com/?utm_source=yahoo&amp;utm_medium=organic&amp;utm_campaign=localmaps</BusinessClickUrl>
+            <Categories>
+                <Category id="96926148">Food Delivery Service</Category>
+                <Category id="96926190">Italian Restaurant</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926238">Sandwiches</Category>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+        <Result id="21340811" xmlns="urn:yahoo:lcl">
+            <Title>Pizza Hut</Title>
+            <Address>464 N Mathilda Ave</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 735-1900</Phone>
+            <Latitude>37.38827</Latitude>
+            <Longitude>-122.03027</Longitude>
+            <Rating>
+                <AverageRating>2</AverageRating>
+                <TotalRatings>6</TotalRatings>
+                <TotalReviews>6</TotalReviews>
+                <LastReviewDate>1245360557</LastReviewDate>
+                <LastReviewIntro> Plenty of employees but nobody working. I couldnt place an order in person. The online form requires you to agree to the sale of your personal information.</LastReviewIntro>
+            </Rating>
+            <Distance>0.72</Distance>
+            <Url>https://local.yahoo.com/info-21340811-pizza-hut-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-21340811-pizza-hut-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-21340811-pizza-hut-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://www.pizzahut.com/locations/california/sunnyvale/011668</BusinessUrl>
+            <BusinessClickUrl>http://www.pizzahut.com/locations/california/sunnyvale/011668</BusinessClickUrl>
+            <Categories>
+                <Category id="96926190">Italian Restaurant</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926237">American Restaurant</Category>
+                <Category id="96926242">Fast Food</Category>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+        <Result id="185573436" xmlns="urn:yahoo:lcl">
+            <Title>Zpizza</Title>
+            <Address>1190 N Fair Oaks Ave</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 746-5641</Phone>
+            <Latitude>37.404287</Latitude>
+            <Longitude>-122.00966</Longitude>
+            <Rating>
+                <AverageRating>NaN</AverageRating>
+                <TotalRatings>0</TotalRatings>
+                <TotalReviews>0</TotalReviews>
+                <LastReviewDate/>
+                <LastReviewIntro/>
+            </Rating>
+            <Distance>1.17</Distance>
+            <Url>https://local.yahoo.com/info-185573436-zpizza-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-185573436-zpizza-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-185573436-zpizza-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://www.zpizza.com/</BusinessUrl>
+            <BusinessClickUrl>http://www.zpizza.com/</BusinessClickUrl>
+            <Categories>
+                <Category id="96926184">Tapas Restaurant</Category>
+                <Category id="96926228">Healthy Restaurant</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926239">Vegetarian Restaurant</Category>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+        <Result id="21329246" xmlns="urn:yahoo:lcl">
+            <Title>Pappy's Pizza</Title>
+            <Address>115 S Sunnyvale Ave</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 744-1700</Phone>
+            <Latitude>37.37709</Latitude>
+            <Longitude>-122.029072</Longitude>
+            <Rating>
+                <AverageRating>NaN</AverageRating>
+                <TotalRatings>0</TotalRatings>
+                <TotalReviews>0</TotalReviews>
+                <LastReviewDate/>
+                <LastReviewIntro/>
+            </Rating>
+            <Distance>1.02</Distance>
+            <Url>https://local.yahoo.com/info-21329246-pappy-s-pizza-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-21329246-pappy-s-pizza-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-21329246-pappy-s-pizza-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl/>
+            <BusinessClickUrl/>
+            <Categories>
+                <Category id="96926184">Tapas Restaurant</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+        <Result id="90734842" xmlns="urn:yahoo:lcl">
+            <Title>Round Table Pizza</Title>
+            <Address>1153 Bordeaux Dr</Address>
+            <City>Sunnyvale</City>
+            <State>CA</State>
+            <Phone>(408) 481-3380</Phone>
+            <Latitude>37.40595</Latitude>
+            <Longitude>-122.02383</Longitude>
+            <Rating>
+                <AverageRating>NaN</AverageRating>
+                <TotalRatings>0</TotalRatings>
+                <TotalReviews>0</TotalReviews>
+                <LastReviewDate/>
+                <LastReviewIntro/>
+            </Rating>
+            <Distance>1.26</Distance>
+            <Url>https://local.yahoo.com/info-90734842-round-table-pizza-sunnyvale</Url>
+            <ClickUrl>https://local.yahoo.com/info-90734842-round-table-pizza-sunnyvale</ClickUrl>
+            <MapUrl>https://local.yahoo.com/info-90734842-round-table-pizza-sunnyvale?viewtype=map</MapUrl>
+            <BusinessUrl>http://roundtablepizza.com</BusinessUrl>
+            <BusinessClickUrl>http://roundtablepizza.com</BusinessClickUrl>
+            <Categories>
+                <Category id="96926184">Tapas Restaurant</Category>
+                <Category id="96926236">Restaurant</Category>
+                <Category id="96926243">Pizza</Category>
+            </Categories>
+        </Result>
+    </results>
+</query>
+ 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng"
+    yahoo:count="0" yahoo:created="2016-02-02T09:15:12Z" yahoo:lang="en-US">
+    <diagnostics>
+        <publiclyCallable>true</publiclyCallable>
+        <cache execution-start-time="2" execution-stop-time="2"
+            execution-time="0" method="GET" type="MEMCACHED"><![CDATA[local.search://transorm_xsl_5HWCXxRh]]></cache>
+        <cache execution-start-time="2" execution-stop-time="2"
+            execution-time="0" method="get" type="MEMCACHED"><![CDATA[local.search://transorm_xsl_5HWCXxRh]]></cache>
+        <url execution-start-time="3" execution-stop-time="61" execution-time="58"><![CDATA[hidden]]></url>
+        <cache execution-start-time="63" execution-stop-time="64"
+            execution-time="1" method="GET" type="MEMCACHED"><![CDATA[5c39bc778e31044790d007ed3951f35f]]></cache>
+        <query execution-start-time="64" execution-stop-time="85" execution-time="21"><![CDATA[select * from xslt where xml=@xml and stylesheetliteral=@stylesheet]]></query>
+        <javascript execution-start-time="0" execution-stop-time="85"
+            execution-time="84" instructions-used="0" table-name="local.search"/>
+        <user-time>86</user-time>
+        <service-time>59</service-time>
+        <build-version>0.2.386</build-version>
+    </diagnostics> 
+    <results/>
+</query>
+ 

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng"
+    yahoo:count="1" yahoo:created="2016-02-02T12:54:36Z" yahoo:lang="en-US">
+    <diagnostics>
+        <publiclyCallable>true</publiclyCallable>
+        <url execution-start-time="2" execution-stop-time="8" execution-time="6"><![CDATA[http://unifiedgeo.geotech.yahoo.com:4080/geo/v1/geocode?q=sfo&start=0&size=10&optionalfields=woe.ancestors&minconfidence=0.0001]]></url>
+        <javascript execution-start-time="1" execution-stop-time="11"
+            execution-time="10" instructions-used="17024" table-name="geo.places"/>
+        <user-time>12</user-time>
+        <service-time>6</service-time>
+        <build-version>0.2.386</build-version>
+    </diagnostics> 
+    <results>
+        <place xml:lang="en-US"
+            xmlns="http://where.yahooapis.com/v1/schema.rng"
+            xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/12521721">
+            <woeid>12521721</woeid>
+            <placeTypeName code="14">Airport</placeTypeName>
+            <name>San Francisco International Airport</name>
+            <country code="US" type="Country" woeid="23424977">United States</country>
+            <admin1 code="US-CA" type="State" woeid="2347563">California</admin1>
+            <admin2 code="" type="County" woeid="12587707">San Francisco</admin2>
+            <admin3/>
+            <locality1 type="Town" woeid="2487956">San Francisco</locality1>
+            <locality2/>
+            <postal type="Zip Code" woeid="12797178">94128</postal>
+            <centroid>
+                <latitude>37.62207</latitude>
+                <longitude>-122.383659</longitude>
+            </centroid>
+            <boundingBox>
+                <southWest>
+                    <latitude>37.603939</latitude>
+                    <longitude>-122.403732</longitude>
+                </southWest>
+                <northEast>
+                    <latitude>37.64463</latitude>
+                    <longitude>-122.35482</longitude>
+                </northEast>
+            </boundingBox>
+            <areaRank>1</areaRank>
+            <popRank>1</popRank>
+            <timezone type="Time Zone" woeid="56043663">America/Los_Angeles</timezone>
+        </place>
+    </results>
+</query>
+ 
